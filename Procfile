@@ -1,0 +1,1 @@
+worker: python carart_bot.py
