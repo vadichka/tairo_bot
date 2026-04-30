@@ -7,7 +7,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 
 # ===== ТВОИ ДАННЫЕ =====
-BOT_TOKEN = "8334628767:AAFandWQ4Xu2ML0rEU_2L5f8Yjf0td9FD_E"
+BOT_TOKEN = "8334628767:AAHeA3jjS95naU_CVZ0T_51GkOzHwgfZUX8"
 CHANNEL_ID = -1003611050389
 
 # ССЫЛКИ
