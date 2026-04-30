@@ -132,17 +132,26 @@ async def ready_works(message: types.Message):
 @dp.message(lambda msg: msg.text == "📱 Наши соц. сети")
 async def social_networks(message: types.Message):
     await message.answer(
-        f"📱 *Наши соц. сети:*\n\n"
-        f"📺 [ТГ КАНАЛ](https://t.me/tairo_o)\n"
-        f"🤖 [ТГ БОТ](https://t.me/tairo_o_bot)\n"
-        f"💰 [ПРАЙС ЛИСТ](https://t.me/tairo_o/16)\n"
-        f"👨‍💼 [ТГ МЕНЕДЖЕР](https://t.me/tairo_manager)\n"
-        f"⭐ [ТГ КАНАЛ С ОТЗЫВАМИ](https://t.me/tairo_otzivi)\n"
-        f"📷 [INSTAGRAM](https://instagram.com/tairocustoms)\n"
-        f"🎵 [TIKTOK](https://tiktok.com/@tairocustoms)\n"
-        f"📘 [VK ПАБЛИК](https://vk.com/tairocustoms)\n"
-        f"📦 [AVITO](https://www.avito.ru/user/2b07c3220477f96997e1d5148950ad25/profile?src=sharing)\n\n"
-        f"👇 Нажми на любой ссылке, чтобы перейти!",
+        f" *Наши соц. сети:*\n\n"
+        f" [Тг канал](https://t.me/tairo_o)\n"
+        
+        f" [Тг бот](https://t.me/tairo_o_bot)\n"
+        
+        f" [Прайс лист](https://t.me/tairo_o/16)\n"
+        
+        f" [Тг менеджер](https://t.me/tairo_manager)\n"
+        
+        f" [Тг канал с отзывами](https://t.me/tairo_otzivi)\n"
+        
+        f" [Instagram](https://instagram.com/tairocustoms)\n"
+        
+        f" [Tiktok](https://tiktok.com/@tairocustoms)\n"
+        
+        f" [Vk паблик](https://vk.com/tairocustoms)\n"
+        
+        f" [Avito](https://www.avito.ru/user/2b07c3220477f96997e1d5148950ad25/profile?src=sharing)\n\n"
+        
+        f"TAIRO | Картины твоей мотивации",
         parse_mode="Markdown",
         reply_markup=main_menu
     )
